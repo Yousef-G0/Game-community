@@ -29,5 +29,7 @@ A dynamic web application for a game community that offers an online **game stor
 1. **Clone the repository**
 
 ```bash
-git clone [https://github.com/your-username/game-community-store](https://github.com/Yousef-G0/Game-community).git
-cd game-community-store
+git clone https://github.com/Yousef-G0/Game-community.git
+cd Game-community
+```
+
