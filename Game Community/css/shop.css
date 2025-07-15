@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif ;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:   #393939 !important;
+}
+
+    /* Header */
+
+    .header {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        width: 80%;
+    }
+    .nav1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav1 ul {
+        display: flex;
+        list-style: none;
+    }
+    .nav1 ul li a {
+        text-decoration: none;
+        color: white;
+        margin-left: 60px;
+        font-size: 15px;
+        font-weight: 600;
+        border-bottom: 2px solid transparent;
+    }
+    .nav1 ul li a:hover {
+        border-bottom: 2px solid white;
+    }
+    .nav1 ul li.active a {
+        border-bottom: 2px solid lightgreen;
+    }
+
+
+    /* Carsoul */
+
+    #carouselExampleFade {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        top: 0;
+        bottom: 0;
+    }
+   .carousel-inner {
+    padding: 20px;
+    }
+        .carousel-item video {
+            padding-right: 100px;
+        }
+        .carousel-item {
+            padding-left: 100px;
+        }
+
+
+
+
+    /* Header 2 for the search and cart */
+
+        .head2 {
+            display: flex;
+            padding: 0px;
+            width: 89%;
+        }
+        .nav2 {
+            display: flex;
+            justify-content: space-between;
+            gap: 35em;
+            padding: 10px;
+
+        }
+        .search {
+            width: 500px;
+            height: 500px;
+            background-color: white;
+            height: 45px;
+            border-radius: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+        }
+        .search input {
+            width: 440px;
+            border: none;
+            outline: none;
+            height: 20px;
+        }
+        .cart {
+            display: flex;
+            background-color: transparent;
+            justify-content: end;
+            align-items: center;
+            padding: 7px 10px;
+            border-radius: 3px;
+            width: 80px;
+            font-size: 18px;
+        }
+        .cart p {
+            height: 22px;
+            width: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 50%;
+            color:#ff0606;
+        }
+        .fa-solid {
+            color: #e6e6e6;
+            margin-right: 10px;
+        }
+
+
+        /* The Products */
+                
+        .conatiner {
+            width: 80%;
+            display: flex;
+            margin-top: 50px;
+        }
+        .root {
+            width: 50%;
+            display: grid;
+            grid-template-columns: repeat(2, 600px);
+            grid-gap: 70px;
+
+        }
+        .box {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border: 1px solid #aaa ;
+            border-radius: 5px;
+        }
+        .imgbox {
+            width: fit-content;
+            height: 170px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: cover;
+            object-position:center ;
+        }
+        .left {
+            width: 50%;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-left: 60px;
+        }
+        .left p {
+            color: aliceblue;
+        }
+        .left , h1 {
+            color: rgb(244, 139, 3);
+        }
+        .veiw {
+            color: #e0e2ec;
+            font-size: 20px;
+            font-family: 'Hurricane', cursive;
+            background-color: rgba(2, 196, 24, 0.596);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 45px;
+            padding: 2px;
+            margin: 30px;
+        }
+        .veiw:hover {
+            background-color: rgb(16, 34, 34);
+        }
+        .veiw1 {
+            color: #e0e2ec;
+            font-size: 20px;
+            font-family: 'Hurricane', cursive;
+            background-color: rgba(2, 196, 24, 0.596);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 45px;
+            padding: 2px;
+            margin: 30px;
+        }
+        .veiw1:hover {
+            background-color: rgb(16, 34, 34);
+        }.veiw2 {
+            color: #e0e2ec;
+            font-size: 20px;
+            font-family: 'Hurricane', cursive;
+            background-color: rgba(2, 196, 24, 0.596);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 45px;
+            padding: 2px;
+            margin: 30px;
+        }
+        .veiw2:hover {
+            background-color: rgb(16, 34, 34);
+        }.veiw3 {
+            color: #e0e2ec;
+            font-size: 20px;
+            font-family: 'Hurricane', cursive;
+            background-color: rgba(2, 196, 24, 0.596);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 45px;
+            padding: 2px;
+            margin: 30px;
+        }
+        .veiw3:hover {
+            background-color: rgb(16, 34, 34);
+        }
+        .veiw4 {
+            color: #e0e2ec;
+            font-size: 20px;
+            font-family: 'Hurricane', cursive;
+            background-color: rgba(2, 196, 24, 0.596);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 45px;
+            padding: 2px;
+            margin: 30px;
+        }
+        .veiw4:hover {
+            background-color: rgb(16, 34, 34);
+        }
+        .veiw5 {
+            color: #e0e2ec;
+            font-size: 20px;
+            font-family: 'Hurricane', cursive;
+            background-color: rgba(2, 196, 24, 0.596);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 45px;
+            padding: 2px;
+            margin: 30px;
+        }
+        .veiw5:hover {
+            background-color: rgb(16, 34, 34);
+        }
+        
+          .acc {
+            padding: 10px;
+           color: #e6e6e6;
+        }
+

@@ -1,0 +1,127 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #393939 !important;
+    box-sizing: border-box;
+    color: aliceblue;            
+    margin: 0;
+    padding: 0;
+}
+.header {
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+.header1 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 80%;
+}
+.nav1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav1 ul {
+    display: flex;
+    list-style: none;
+}
+.nav1 ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
+.nav1 ul li a:hover {
+    border-bottom: 2px solid white;
+}
+.nav1 ul li.active a {
+    border-bottom: 2px solid lightgreen;
+}
+.head {
+    color: aquamarine;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    display: flex;
+    justify-content: center;
+    }
+.row1 {
+    display: flex;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    margin-left: 200px;
+}
+.row2 {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+.row1 label,
+.row2 label {
+    display: flex;
+    margin: 20px;
+}
+.inputfname,
+.inputlname,
+.inputEmail,
+.inputPhone,
+.description textarea {
+    border: 1px solid blue;
+    border-radius: 8px; /* Adjust the border-radius as needed */
+    padding: 5px;
+    width:70%; /* Adjust the width as needed */
+}
+.Email input,
+.Phone input,
+.description1 {
+    margin-top: 10px;
+    display: flex;
+    height: 25px;
+}
+.row3 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+.Phone {
+    margin-top: 10px;
+}
+.description,
+label {
+    margin-top: 10px;
+}
+.description label, .Email, .Phone {
+    margin-left: 200px;
+}
+.description textarea{
+    display: flex;
+    height: 100px; /* Adjust the height as needed */
+    margin-left: 200px;
+}
+button {
+   margin-left: 50%;
+   margin-top: 20px; /* Adjust the margin as needed */
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: bisque;
+    color: rgb(24, 163, 59);
+}
+button:hover {
+    background-color: chartreuse;
+    color: blueviolet;
+    transition: .9s;
+
+}
+
+

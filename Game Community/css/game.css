@@ -1,0 +1,560 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.main-w {
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+
+  /* Game Section or the view of the page  */
+.Game {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-color:   #393939 !important;
+    position: relative;
+
+}
+.Game header .logo h2 a {
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: .9s;
+
+}
+.Game header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+    transition: .9s;
+
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .9s;
+
+}
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+nav ul li.active a {
+    border-bottom: 2px solid lightgreen;
+}
+nav ul li.btn a {
+    background: transparent;
+    color: blue;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+li.btn1 a {
+    background: transparent;
+    color: blue;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin: auto;
+    font-weight: 500;
+}
+nav ul li.btn:hover a {
+    border: 1px solid white;
+    color: black;
+    background: white;
+}
+nav ul li.btn1:hover a {
+    border: 1px solid white;
+    color: black;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+.content {
+    padding-top: 100px;
+}
+.content .main-t {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px; 
+}
+.content .main-t h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.content .main-t h1 {
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0px 0px 45px;
+    font-family: 'Hurricane', cursive;
+}
+.content .main-t h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.content .main-t p {
+    max-width: 100%;
+    width: 480px;
+    color: white;
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.image {
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+
+}
+.image img {
+    height: 100%;
+
+}
+
+/* Internal Sidbar or the liks */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(41, 44, 46, 0.685);
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    }
+    .sidebar li {
+        width: 100%;
+    }
+    .sidebar a {
+        width: 100%;
+    }
+    .menu {
+        color: rgb(197, 213, 223);
+        display: none;
+    }
+    .image2 {
+        display: none;
+      }
+
+
+
+
+       /* Our Features view  */
+
+    .sectionrow {
+        background-color:   #394e23 !important;
+        margin: 0;
+        }
+        .row1 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+          .row1 h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 3.75em;
+            font-weight: 600;
+            color: #e4e3ea;
+          }
+          .column {
+            padding: 1em;
+          }
+          .card {
+            text-align: center;
+            transition: 0.5s;
+          }
+          
+          .card .icon {
+            font-size: 2.5em;
+            height: 2em;
+            width: 2em;
+            margin: auto;
+            background-color: #0b58de;
+            display: grid;
+            align-items: center;
+            border-radius: 50%;
+            color: #ffffff;
+          }
+          .card h3 {
+            font-size: 1.3em;
+            margin: 1em 0 1.4em 0;
+            font-weight: 600;
+            color: #13101f;
+          }
+          .card p {
+            line-height: 2em;
+            color: #aea9b8;
+          }
+          
+    
+
+
+
+
+
+
+       /* Our Viewed Product Section */
+
+       main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color:   #134929 !important;
+
+    }
+    .row2  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: #397ef6;
+        font-weight: 200;
+        font-size: 1.25em;
+        background-color:   #134929 !important;
+
+        align-content: center;
+    }
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        margin: 10px;
+        border-radius: 15px;
+        max-width: 400px; 
+        max-height: 500px;   
+        background-color: transparent;
+        border: 2px solid wheat;
+        color: #f5dcac;
+        transition: 0.9s;
+    }
+    strong {
+        color: #ef1501;
+    }
+    .card2 img {
+        max-width: 100%;
+    }
+    button {
+        display: flex;
+        border-radius: 20px;
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 100px;
+        margin-top: 10px;
+        justify-content: center;
+        color: rgb(76, 0, 255);
+        background-color: rgb(0, 255, 0);
+        
+    }
+
+
+
+
+
+
+    /* Contact Section */
+
+ .heading1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 40px;
+    background-color:   #170e3b !important;
+    color: rgb(222, 130, 130);
+    text-transform: uppercase;
+}
+.heading1 span {
+    color: #f5dcac;
+
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:   #170e3b !important;
+}
+.row  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+ .row form{
+    text-align: center;
+}
+
+ .row form h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#fff;
+}
+
+ .row  .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: rgb(0, 0, 0);
+    border:2px solid beige;
+}
+
+ .row form .inputBox span{
+    color:#fff;
+    font-size: 20px;
+    padding-left: 2rem;
+}
+
+ .row form .inputBox input{
+    width: 100%;
+    padding:15px;
+    font-size: 15px;
+    color: #fff;;
+    text-transform: none;
+    background:none;
+}
+.btn4 {
+    margin-top: 10px;
+    padding: .9px 30px;
+    font-size: 20px;
+    color: #fff;
+    background: rgb(210, 139, 23);
+    border:1px solid #191f3c;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fa{
+    font-size: 25px;
+    color:#fff;
+    cursor: pointer;
+    }
+
+
+
+
+        /* Footer */
+
+        .footer{
+            background:black;
+            text-align: center;
+        }
+
+        .footer .social{
+            padding:10px 0;
+        }
+
+        .footer .social a{
+            height: 15px;
+            width: 10px;
+            line-height: 20px;
+            font-size: 30px;
+            color:#fff;
+            margin:10px;
+            transition: .9s;
+
+        }
+
+        .footer .social a:hover{
+            color: orange;
+        }
+
+        .footer .links{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap:10px;
+
+        }
+
+        .footer .links a{
+            text-decoration: none;
+            padding: 10px;
+            color:#fff;
+            font-size: 20px;
+            transition: .9s;
+
+        }
+
+        .footer .links a:hover{
+            color:gold;
+        }
+
+        .footer .credit{
+            font-size: 20px;
+            color:#fff;
+            font-weight: lighter;
+            padding:1.5px;
+            transition: .9s;
+
+        }
+
+        .footer .credit span{
+            color:gold;
+        }
+
+
+
+
+        
+      @media screen and (min-width: 768px) {
+        section {
+          padding: 1em 7em;
+        }
+      }
+      @media screen and (min-width: 992px) {
+        section {
+          padding: 1em;
+        }
+        .card {
+          padding: 5em 2em;
+        }
+        .column {
+          max-width: 33%;
+        }
+      }
+
+
+
+
+        @media only screen and (max-width : 800px) {
+        #hide0 ,#hide1, #hide2 {
+            display: none;
+        }
+        .hidemob {
+            display: none;
+        }
+        .content .main-t h1 {
+        font-size: 60px; 
+        }
+        .menu {
+            display: block;
+        }
+        .image {
+            display: none;
+        }
+        body {
+        overflow-x: hidden;
+        }
+        .image2 {
+            display: block;
+            position: absolute;                
+            width: fit-content;
+            height: 50%;
+            bottom: 25vh;
+            left: 0px;
+        }
+        .image2 img {
+            max-width: 100%;
+            height: auto;
+        }
+        }
+
+
+
+
+            @media only screen and (max-width : 820px) {
+
+            .content .main-t h1 {
+            font-size: 60px; 
+            }
+            .menu {
+                display: block;
+            }
+            .image {
+                display: none;
+            }
+
+            body {
+            overflow-x: hidden;
+            }
+            .image2 {
+                display: block;
+                position: relative;
+                bottom: 5em;                
+                width: fit-content;
+                height: 50%;
+            }
+            .image2 img {
+                max-width: 100%;
+                height: 70%;
+            } 
+            .social {
+                top: 25vh;
+            }
+            }
+
+
+
+        @media only screen and (max-width: 400px) {
+            .content .main-t h1 {
+                font-size: 60px;
+            }
+
+            .sidebar {
+                width: 100%;
+                height: 100%;
+            }
+
+            .image {
+                display: none;
+            }
+
+            .menu {
+                display: block;
+            }
+            .image2 {
+                display: block;
+                position: absolute;
+                width: fit-content;
+                height: 50%;
+                bottom: 0vh;
+                left: 0px;
+            }
+
+            .image2 img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            
+        }
+

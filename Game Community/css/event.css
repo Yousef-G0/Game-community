@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #393939 !important;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .9s;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    max-width: 100%;
+    border-bottom: 2px solid transparent;
+    align-items: center;
+    transition: .9s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+nav ul li#active a {
+    border-bottom: 2px solid lightgreen;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(210, 214, 218, 0.685);
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    transition: right 0.5s ease; 
+
+    } 
+     .sidebar li {
+        width: 100%;
+    }
+    .sidebar a {
+        width: 100%;
+    } 
+    .menu {
+        color: aliceblue;
+        display: none;
+    }
+
+    .event-header h1 {
+        font-family: 'Hurricane', cursive;
+        font-size: 45px;
+        color: #a98f8f;
+        display: flex;
+        justify-content: center;
+    }
+    
+.container {
+    max-width: 100%;
+    margin: 50px 10px;
+    padding: 20px;
+    background-color: #67678e !important;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.luanch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.luanch div {
+    flex-basis: 100px;
+}
+
+.luanch p {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.game-selection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.menu {
+    display: none;
+}
+.submit-button {
+    display: block;
+    margin: 20px auto;
+    padding: 0px 10px;
+    background-color: #007bff;
+    color: #fff;
+    height:30px;
+    border: solid ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background:radial-gradient(#191f3c ,20%, #670505);
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul li a {
+        margin-left: 10px;
+    }
+
+    .sidebar {
+        right: 0;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    nav ul li a {
+        margin-left: 5px;
+    }
+    #hide0 ,#hide1, #hide2 {
+        display: none;
+    }
+    .hidemob {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .menu {
+        display: block;
+        margin-left: 300px;
+       
+    }
+    .game-option img {
+        width:  90%;
+    }
+}

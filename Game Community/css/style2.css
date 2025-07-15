@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin:0px;
+    background-color:   #393939 !important;
+    color: rgb(255, 0, 0);
+    font-family: cursive;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+
+
+.go-btn{
+    width: 100%;
+    color: rgb(247, 0, 0);
+    border-color: rgb(230, 7, 7);
+}
+nav {
+    padding: 13px 0;
+    border-radius: 15px;
+    margin: 0 8px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 99999;
+}
+
+nav span {
+    position: relative;
+    padding-top: 33px;
+}
+nav a {
+    color: rgb(255, 254, 254);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #067802;
+    border-radius: 25px;
+    transition: all 0.7s;
+    color: #fbfbfb;
+}
+.main-title{
+    text-align: center;
+    margin-top: 30px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #D3D3D3;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+}

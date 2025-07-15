@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Event</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Montserrat&family=Poppins:ital,wght@0,300;0,500;0,700;0,800;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/event.css">
+</head>
+<body>
+    <header>
+          <nav>
+            <!-- Internal NavBar -->
+              <ul class="sidebar">
+                  <li onclick="hide()"><a href="index.php"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                  <li ><a href="#">Home</a></li>
+                  <li><a href="Shop.php">Shop</a></li>
+                  <li class="active"><a href="Event.html">Events</a></li>
+                  <li><a href="Contact2.php">Contact</a></li>
+                 
+              </ul>
+                <!-- External NavBar -->
+
+              <ul >
+                  <li  id="hide0"><a href="index.php">Home</a></li>
+                  <li  class="hidemob"><a href="Shop.php">Shop</a></li>
+                  <li id="active" class="hidemob" ><a href="Event.html">Events</a></li>
+                  <li class="hidemob"><a href="Contact2.php">Contact</a></li>
+                  <li class="menu" onclick="show()"><a href="#"><i id="menu-icon" class="fa fa-bars"></i> </a></li>
+              </ul>
+          </nav>
+      </header>
+
+    <div class="event-header">
+        <a><h1>Upcoming Event: Gaming Extravaganza</h1></a>
+    </div>
+
+    <div class="container">
+        <div class="event-content">
+            <div class="event-description">
+                <p>
+                    Join us for an incredible gaming experience at our upcoming event, "Gaming Extravaganza." 
+                    Explore the latest game releases, meet fellow gamers, and participate in exciting activities.
+                </p>
+                <p>
+                    Whether you're a casual gamer or a hardcore enthusiast, this event is tailored for everyone. 
+                    Don't miss out on the fun and excitement!
+                </p>
+                <p>
+                    Before getting to the Event , you have to anser this Question;
+                    You have the chance to PS5 answer below which game was the best in thhis year ,
+                    you will be informed at the moment the Event finishs. 
+                </p>
+                
+
+            </div>
+
+            
+                <div class="luanch">
+                    <div>
+                        <p id="days">00</p>
+                        <span>Days</span>
+                    </div>
+                    <div>
+                        <p id="hours">00</p>
+                        <span>Hours</span>
+                    </div>
+                    <div>
+                        <p id="mintues">00</p>
+                        <span>Minutes</span>
+                    </div>
+                    <div>
+                        <p id="seconds">00</p>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+                <form id="gameForm" action="event.php" method="post">
+                    <!-- <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required> -->
+            <div class="game-selection">
+                <div class="game-option">
+                    <input type="radio" id="cyberpunk" name="game" value="Cyberpunk 2077">
+                    <label for="cyberpunk"> 
+                        <img src="photo/phantomliberty.jpg" alt="Cyberpunk 2077" height="200"><br>
+                        Cyberpunk 2077: Phantom Liberty
+                    </label>
+                </div>
+            
+                <div class="game-option">
+                    <input type="radio" id="resident-evil" name="game" value="Resident Evil 4">
+                    <label for="resident-evil">
+                        <img src="photo/residentevil4.jpg" alt="Resident Evil 4" height="200"><br>
+                        Resident Evil 4
+                    </label>
+                </div>
+            
+                <div class="game-option">
+                    <input type="radio" id="dead-space" name="game" value="Dead space">
+                    <label for="dead-space">
+                        <img src="photo/4213460-deadspace.jpg" alt="Dead space" height="200"><br>
+                        Dead Space
+                    </label>
+                </div>
+            </div>
+            <button class="submit-button">Submit</button>
+                </form>
+</div>
+</div>
+<script src="js/event.js"></script>
+</body>
+</html>
